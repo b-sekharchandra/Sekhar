@@ -1,0 +1,31 @@
+---
+product: "1.0.0"
+info:
+  name: "new-product"
+  title: "new-product"
+  version: "1.0.0"
+visibility:
+  view:
+    enabled: true
+    type: "public"
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: "authenticated"
+    tags: []
+    orgs: []
+apis:
+  swiggy:
+    $ref: "swiggy_1.0.0.yaml"
+  google:
+    $ref: "google_1.0.0.yaml"
+  youtube:
+    $ref: "youtube_1.0.0.yaml"
+  facebook:
+    $ref: "facebook_1.0.0.yaml"
+  flipkart:
+    $ref: "flipkart_1.0.0.yaml"
+plans:
+  Default:
+    title: "Default Plan"

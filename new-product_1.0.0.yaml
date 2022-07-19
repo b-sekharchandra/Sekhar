@@ -20,12 +20,6 @@ apis:
     $ref: "swiggy_1.0.0.yaml"
   google:
     $ref: "google_1.0.0.yaml"
-  youtube:
-    $ref: "youtube_1.0.0.yaml"
-  facebook:
-    $ref: "facebook_1.0.0.yaml"
-  flipkart:
-    $ref: "flipkart_1.0.0.yaml"
 plans:
   Default:
     title: "Default Plan"
